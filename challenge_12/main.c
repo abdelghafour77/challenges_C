@@ -2,19 +2,12 @@
 
 int main()
 {
-   int NbrInverse = 0, nbr;
+    char num[3];
 
-   printf("Entrez un nombre a inverser\n");
-   scanf("%d", &nbr);
+    printf("saisir un nombre de 3 chiffre : ");
+    scanf("%s",&num);
+    printf("%c%c%c ",num[2],num[1],num[0]);
 
-   while (nbr != 0)
-   {
-      NbrInverse = NbrInverse * 10;
-      NbrInverse = NbrInverse + nbr%10;
-      nbr = nbr/10;
-   }
-
-   printf("Le nombre en sens inverse est = %d\n", NbrInverse);
 
    return 0;
 }
