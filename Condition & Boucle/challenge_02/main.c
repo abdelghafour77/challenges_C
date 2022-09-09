@@ -13,21 +13,26 @@ int main()
     switch(car)
     {
         case 'a':
-            printf("");
+            printf("voyelle");
             break;
         case 'e':
-            printf("");
+            printf("voyelle");
             break;
         case 'i':
-            printf("");
+            printf("voyelle");
             break;
         case 'o':
-            printf("");
+            printf("voyelle");
+            break;
+        case 'u':
+            printf("voyelle");
+            break;
+        case 'y':
+            printf("voyelle");
             break;
 
-        // operator doesn't match any case constant +, -, *, /
         default:
-            printf("Error! operator is not correct");
+            printf("non voyelle");
     }
     return 0;
 }
