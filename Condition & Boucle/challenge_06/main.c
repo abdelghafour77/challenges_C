@@ -6,8 +6,6 @@ int main()
     int i,j,s=0;
     char tab1[4],tab2[4];
 
-
-  //  solution={'1','1','1','1'};
     printf("entrer le premiere mots : ");
     scanf("%s",&tab1);
 
@@ -22,9 +20,9 @@ int main()
         }
     }
     if(s==4){
-        printf("yes");
+        printf("Anagramme");
     }else{
-        printf("non");
+        printf("Pas d'anagramme !");
     }
 
     return 0;
