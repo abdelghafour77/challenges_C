@@ -7,11 +7,10 @@ int main()
     char tab1[4],tab2[4];
 
     printf("entrer le premiere mots : ");
-    scanf("%s",&tab1);
+    gets(tab1);
 
     printf("entrer le deuxieme mots : ");
-    scanf("%s",&tab2);
-
+    gets(tab2);
     for (i=0;i<=4;i++){
         for (j=0;j<=4;j++){
             if(tab1[i]==tab2[j]){
