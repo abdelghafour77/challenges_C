@@ -9,7 +9,7 @@ int main()
     printf("Saisir la 2 eme valeur : ");
     scanf("%d",&b);
     if(a==b){
-        printf("%d", a*3);
+        printf("%d", (a+b)*3);
     }else{
         printf("%d", a+b);
     }

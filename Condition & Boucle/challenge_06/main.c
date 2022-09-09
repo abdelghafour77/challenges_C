@@ -3,26 +3,29 @@
 
 int main()
 {
-    int i,j;
-    char tab1[4],tab2[4],solution[4];
+    int i,j,s=0;
+    char tab1[4],tab2[4];
 
 
+  //  solution={'1','1','1','1'};
     printf("entrer le premiere mots : ");
     scanf("%s",&tab1);
 
     printf("entrer le deuxieme mots : ");
     scanf("%s",&tab2);
-    printf("%c\n",tab1[0]);
 
-    for (i=0;i<5;i++){
-        for (j=0;j<5;j++){
+    for (i=0;i<=4;i++){
+        for (j=0;j<=4;j++){
             if(tab1[i]==tab2[j]){
-                    printf("y\n");
+                    s++;
             }
         }
     }
-    printf("%c%c%c%c\n",solution[0],solution[1],solution[2],solution[3]);
-    printf("%s",solution);
+    if(s==4){
+        printf("yes");
+    }else{
+        printf("non");
+    }
 
     return 0;
 }
