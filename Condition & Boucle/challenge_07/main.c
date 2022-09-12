@@ -1,8 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void add (int a, int b){
-printf("%d",a+b);
+int add (int a, int b){
+    int somme;
+    somme=a+b;
+    return somme;
 }
 int main()
 {
