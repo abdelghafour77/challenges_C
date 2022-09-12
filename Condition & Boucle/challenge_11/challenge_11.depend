@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1662974627 source:c:\users\youcode\desktop\c\challenges_c\condition & boucle\challenge_11\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+
