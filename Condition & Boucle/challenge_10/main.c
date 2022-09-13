@@ -3,6 +3,9 @@
 #include <stdbool.h>
 
 bool isPremier(int a){
+    if (a==0){
+        return false;
+    }
     int i,cpt=0;
     for(i=1;i<=a;i++){
             if((a%i)==0){
@@ -16,8 +19,14 @@ bool isPremier(int a){
     }
 }
 
-void divededby(int n,int a){
-    isPremier(a+n);
+int divededby(int n,int a){
+    int s;
+    if((a%n)!=0){
+        return 0;
+    }else{
+    s=a/n;
+     return isPremier(s);
+    }
 }
 
 int main()
@@ -29,7 +38,7 @@ int main()
     printf("Saisir le deuxieme nombre : ");
     scanf("%d",&n);
 
-    if(isPremier(a)== true){
+    if(divededby(n,a)== true){
         printf("true");
     }else{
         printf("false");
