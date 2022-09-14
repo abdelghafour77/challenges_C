@@ -11,7 +11,7 @@ int main()
 {
     char str1[80],str2[80];
     printf("type anything : ");
-    scanf("%s",&str1);
+    gets(str1);
 
     copy(str1,str2);
     printf("%s",str2);
