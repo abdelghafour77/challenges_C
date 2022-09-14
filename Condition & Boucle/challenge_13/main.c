@@ -25,12 +25,10 @@ int main()
     printf("Saisir votre note : ");
     scanf("%f",&student1.note);
 
-    printf("Votre numero de matricule est : %d \n",student1.num);
     printf("Votre nom est : %s \n",student1.nom);
+    printf("Votre numero de matricule est : %d \n",student1.num);
     printf("Votre age est : %d \n",student1.age);
     printf("Votre note est : %f \n",student1.note);
-
-
 
 
     return 0;
